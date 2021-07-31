@@ -1,1 +1,6 @@
 # Reconocimiento_d-gitos_NN
+Para llevar a cabo este proyecto se hizo un programa utilizando el lenguaje de programación Python versión 3.8, apoyándose en librerías como cv2 (con la versión 4.2 de OpenCV), numpy, PIL, matplotlib, entre otras. El objetivo de dicho programa es funcionar como un sistema de reconocimiento de dígitos, en este programa, la imagen que entra pasa primero por un procedimiento de limpieza y ya limpia entra a un método que da como resultado la clasificación encontrada, es decir, entra al proceso de reconocimiento.
+Si se selecciona la opción de cargar una imagen se abrirá el explorador de búsqueda y al seleccionarla se abre la ventana de reconocimiento.
+En caso de desear capturar la imagen, se cuenta con dos formas de captura, utilizar una cámara web integrada al equipo, o utilizar IP Webcam.
+Para utilizar IP Webcam primero se debe descargar la aplicación IP Webcam en tu smartphone, que permite utilizar la cámara de tu dispositivo móvil para capturar la imagen de entrada, y para utilizarla tras abrir la app, el programa solicita la IP que se muestra en tu IP Webcam para poder conectarse, mientras que si se cuenta con una cámara web integrada no es necesario proporcionar nada.
+De acuerdo con las pruebas que se realizaron el programa cumple con un 85% de precisión en el reconocimiento de dígitos.
